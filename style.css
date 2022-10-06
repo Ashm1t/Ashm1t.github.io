@@ -1,0 +1,120 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+.Home{
+  scroll-behavior: smooth;
+    background-image: url('sd.png'),url('bg.png');
+    
+    background-repeat: no-repeat,repeat;
+    background-position: center,center;
+    background-size: 500px,cover;
+    margin: 0;
+    height:  120vh;
+    margin-bottom: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.icon-bar 
+  {
+   width: 20px;
+    padding-top: 3.8in;
+    }
+    
+    .icon-bar a {
+      float: left;
+      margin: 0 5 3 auto;
+      display: block;
+      text-align: center;
+      padding: 16px;
+      transition: all 0.3s ease;
+      color: white;
+      font-size: 36px;
+      ;
+    }
+    
+    .icon-bar a:hover {
+      background-color: rgb(112, 103, 103) ; 
+ }
+
+
+
+
+.topnav {
+      overflow: hidden;
+      text-align: center;
+      position: fixed;
+      padding-left: 0px;
+      background-color: #1a1919ee;
+      background-size: cover;
+      background-repeat:repeat;
+      width: 1920px;
+      
+     }
+    
+    .topnav a {
+      
+      color: #f2f2f2;
+      text-align: center;
+      display: inline-block;
+      padding: 14px 1.5in;
+      text-decoration: none;
+      font-size: 17px;
+      
+    }
+    
+    .topnav a:hover {
+      background-color: rgb(77, 76, 76);
+    
+    }
+    
+    .topnav a.active {
+      
+      color: white;
+}
+
+.shortdisc {
+  font-size: 20px;
+  text-align: center;
+  color: #bdbdbd;
+  font-weight:bold ;
+  padding-top: 6in;
+  padding-right: 0.5cm;
+
+  
+}
+
+.Ame
+{
+   scroll-behavior: smooth;
+  
+  background-image: url(bgg.png);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  height: 50vh;
+ 
+
+}
+#Abouthead{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+  font-size: 76px;
+  color: #bdbdbd;
+  
+  text-align: center;
+  
+}
+.Cntr1 {
+   font-size: 20px;
+   text-align:center;
+   margin: 30px;
+}
+   
+ .card1{
+  
+ }  
