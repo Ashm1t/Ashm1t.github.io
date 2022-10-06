@@ -91,18 +91,18 @@ body{
 {
    scroll-behavior: smooth;
   
-  background-image: url(bgg.png);
+  background-color: black;
   background-repeat: repeat;
   background-position: center;
   background-size: cover;
   margin: 0;
-  height: 50vh;
+  height: 61vh;
  
 
 }
 #Abouthead{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-weight: bold;
+  font-family:  Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
   font-size: 76px;
   color: #bdbdbd;
   
@@ -115,6 +115,39 @@ body{
    margin: 30px;
 }
    
- .card1{
+.work{
+  scroll-behavior: smooth;
   
- }  
+  background-image: url(bgg.png);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  height: 60vh;
+ 
+}
+ #poi3{
+  position: bottom;
+ }
+
+.skyrim{
+  
+  width: 1920px;
+  height: 40vh;
+  background-image: url(ho.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+#poi3{
+  padding-top: 1inch;
+}
+.MyW{
+  font-family:  Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+  font-size: 73px;
+  color: #bdbdbd;
+  
+  text-align: center;
+  
+}
