@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+   <title>AshVerse</title>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="style.css">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
  <div class="Home"> 
+    
      
-     <div class="topnav" ;>
+     <div id="topnav" ;>
         <a class="active" href="#poi2">Home</a>
-        <a href="#poi1">About Me</a>
-        <a href="#poi3">My work</a>
-        <a href="#Contact baby">Contact baby </a>
+        <a href="#poi1">About </a>
+        <a href="#poi3"> Work</a>
+        <a href="#Contact baby">Contact </a>
      </div>
      <div id="poi2" style="color:black ;">.</div>
      <div class="icon-bar">
@@ -51,8 +52,10 @@
          has intrigued me it fascinates me and i think its going to be the main 'BIG TECH' of the future. Aside from that i am bit lazy and i tend to push things to the last minute possible but still i get the job done 
          somehow eventually.
      </div>
-      <div class="skyrim"></div>
-      <div id="poi3" style="color:black ">.</div>
+     <div id="poi3" style="color:black ">.</div>
+      
+      
+      
     </div>
 
 
@@ -60,13 +63,61 @@
      <div class="MyW">My work</div>
       <br>
       <br>
-      <div class="card1"></div>
-      <div class="card2"></div>
-      <div class="card3"></div>
+      <div class="row">
+        <div class="column">
+         <img src="kiran 3 .png" style="width: 25%">
+         <img src="joke.jpeg" style="width: 25%;">
+
+        </div>
+        <div class="column">
+         <img src="bixy.gif" style="width: 25%; " >
+         <img src="gurren.gif" style="width: 25%; ">
+        </div>
+
+      </div>
+      <div class="pc">
     
-  </div>
+         <div class="border">
+             
+         <button onclick="window.location.href='https://www.deviantart.com/' ; ">Vist My DeviantArt!</button>
+     </div>
+     </div>
+   
+  <div class="cont";>
+    <form method="post" action="gg.php">
+      <h1>Contact Me</h1>
+      <h3>Name</h3> 
+      <input class="cinput" type="text" name="name" required>
+      <h3>Email Id</h3>
+      <input class="cinput" type="email" name="email" required>
+      <h3>Message</h3>
+      <textarea class="cinput" spellcheck="false" cols="30" rows="10" name="message"></textarea>
+      <div class="pc">
+         <div class="borders">
+         <button id="submit" name="submit" value="submit" type="submit">SUBMIT NOW!</button>
+        </div>
+      </div>
+      <p> <br> </p>
+    </form>
+     </div>
 
+ <script>var prevScrollpos = window.scrollY;
+      window.onscroll = function() 
+      {
+        var currentScrollPos = window.scrollY;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("topnav").style.top = "0";
+        } else {
+          document.getElementById("topnav").style.top = "-65px";
+        }
+        prevScrollpos = currentScrollPos;
+      }
+      
+ </script>
 
+<div class="footer"> 
+ <h1> Thank You for Visiting!</h1>
+</div>
 
 
 
